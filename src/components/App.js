@@ -104,7 +104,7 @@ class App extends Component {
 							this.state.loading? 
 							<div id="loader" className="text-center"><p className="text-center">Loading...</p></div>
 							: <Main productlist={this.state.productlist}
-								length={this.state.length}
+								// length={this.state.length}
 								createProduct={this.createProduct}
 								purchaseProduct={this.purchaseProduct} />
 						}
