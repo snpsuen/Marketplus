@@ -8,6 +8,7 @@ WORKDIR /web3
 RUN npm install --global --quiet npm truffle ganache
 RUN git clone https://github.com/snpsuen/Marketplus.git
 WORKDIR /web3/Marketplus
+ENV NODE_OPTIONS=--openssl-legacy-provider
 RUN npm install --quiet
 EXPOSE 8545
 EXPOSE 3000
