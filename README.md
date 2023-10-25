@@ -27,11 +27,13 @@ view src/components/Navbar.js
 npm run start &
 ```
 ### 4. Testing out
-Make sure your local desktop ports 3000 and 8545 (localhost:3000) is forwarded to the same ports on the .  
-Open your desktop browser at http://localhost:3000
-Open Metamask and login to the wallet.
+*  Make sure your local desktop ports 3000 and 8545, i.e. localhost:3000 & 8545, are forwarded respectively to the same ports on the project container.
+*  Open your desktop browser at http://localhost:3000
+*  Open the Metamask extension and login to the wallet.
+*  Connect Metamask to the Ganache blockchain network, RPC URL: HTTP:localhost:8545, Chain ID: 1337
+*  Refer to /web3/ganache.log inside the project container and import accounts to Metamask.
+*  You are now ready to add or purchase products from Marketplus as different account owners in the frontend.
 
-Refer to /web3/ganache.log in the project container 
 
 
 
