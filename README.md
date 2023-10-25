@@ -4,7 +4,7 @@ Marketplus is a refined version on the Marketplace Dapp featured in the Solidity
 2. Each product on sale is recorded with a quantity in stock.
 3. Need to indicate how many items to buy when purchasing a product.
 
-Here are the quick steps to take to build and test the Dapp.
+Just follow the quick steps below to take to build and test the Dapp.
 
 ### 1. Use the bundled Dockerfile to spin up the project container
 ```
@@ -27,9 +27,11 @@ view src/components/Navbar.js
 npm run start &
 ```
 ### 4. Testing out
-Make sure your local desktop port 3000 (localhost:3000) is forwarded to container host port 3000.  
-Open your desktop browser at http://localhost:3000  
-Refer to 
+Make sure your local desktop ports 3000 and 8545 (localhost:3000) is forwarded to the same ports on the .  
+Open your desktop browser at http://localhost:3000
+Open Metamask and login to the wallet.
+
+Refer to /web3/ganache.log in the project container 
 
 
 
