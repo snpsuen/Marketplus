@@ -26,7 +26,7 @@ view src/components/Main.js
 view src/components/Navbar.js
 npm run start &
 ```
-### 4. Testing out
+### 4. Test it out
 *  Make sure your local desktop ports 3000 and 8545, i.e. localhost:3000 & 8545, are forwarded respectively to the same ports on the project container.
 *  Open your desktop browser at http://localhost:3000
 *  Open the Metamask extension and login to the wallet.
