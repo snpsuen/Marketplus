@@ -7,10 +7,10 @@ Marketplus is a refined version on the Marketplace Dapp featured in the Solidity
 Just follow the quick steps to build and test the Dapp.
 
 ### 1. Use the listed Dockerfile to spin up the project container
-~~~
+```
 sudo docker build -t snpsuen/marketplus:v01 .
 sudo docker run --name mpcon -p 8545:8545 -p 3000:3000 -d snpsuen/marketplus:v01
 sudo docker exec -it mpcon bash
-~~~
+```
 
 
