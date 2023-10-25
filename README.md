@@ -15,6 +15,7 @@ sudo docker exec -it mpcon bash
 ### 2. Deploy the smart contract on the Ganache blockchain
 ```
 view src/contracts/Marketplus.sol
+view migrations/2_deploy_contracts.js
 truffle compile
 truffle migrate --reset
 ```
