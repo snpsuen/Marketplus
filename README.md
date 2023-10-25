@@ -26,7 +26,10 @@ view src/components/Main.js
 view src/components/Navbar.js
 npm run start &
 ```
-
+### 4. Testing out
+Make sure your local desktop port 3000 (localhost:3000) is forwarded to container host port 3000.  
+Open your desktop browser at http://localhost:3000  
+Refer to 
 
 
 
