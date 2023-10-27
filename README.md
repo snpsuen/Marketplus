@@ -4,7 +4,7 @@ Marketplus is a refined version on the Marketplace Dapp featured in the Solidity
 2. Each product on sale is recorded with a quantity in stock.
 3. Need to indicate how many items to buy when purchasing a product.
 
-Just follow the quick steps below to take to build and test the Dapp.
+Just follow the quick steps below to build and test the Dapp.
 
 ### 1. Use the bundled Dockerfile to spin up the project container
 ```
