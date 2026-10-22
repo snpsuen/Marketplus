@@ -1,7 +1,7 @@
 # Marketplus
 Marketplus is a refined version on the Marketplace Dapp featured in the Solidity/Ethereum [tutorial](https://www.dappuniversity.com/articles/how-to-build-a-blockchain-app), whereby changes are primarily applied to the structure and purchase of products on a smart contract.
-1. Each product on sale is assigned a random but unique product ID.
-2. Each product on sale is recorded with a quantity in stock.
+1. Each product for sale is assigned a random but unique product ID.
+2. Each product for sale is recorded with a quantity in stock.
 3. Need to indicate how many items to buy when purchasing a product.
 
 Just follow the quick steps below to build and test the Dapp.
